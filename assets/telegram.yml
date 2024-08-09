@@ -1,0 +1,10 @@
+allowed_users: 
+  apple8150:
+    name: Maria Sokolova
+    nationality: Russian
+    country_of_origin: Russia
+  bramiozo:
+    name: Bram van Es
+    nationality: Dutch
+    country_of_origin: the Netherlands
+

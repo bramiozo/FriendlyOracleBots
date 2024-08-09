@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "telegrambot"
+version = "0.1.0"
+description = ""
+authors = ["Bram van Es <contact@b-lab.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.7"
+langchain = "^0.0.176"
+python-telegram-bot = "20.6"
+setuptools = "^67.8.0"
+python-dotenv = "^1.0.0"
+emoji = "^2.2.0"
+pyyaml = "^6.0"
+pydub= = "^0.25.1"
+fastapi = "^0.95.2"
+httpx = "^0.25.0"
+gunicorn = "^20.1.0"
+uvicorn = "^0.22.0"
+pydantic = "<2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
